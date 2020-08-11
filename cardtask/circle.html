@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Responsive CSS Circle With Text
+    </title>
+    <style>
+        .res-circle {
+            width: 20%;
+            border-radius: 50%;
+            line-height: 0;
+            background: #bcd6ff;
+
+            position: relative;
+        }
+
+        .res-circle:after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+
+        .circle-txt {
+            position: absolute;
+            bottom: 50%;
+            width: 100%;
+            text-align: center;
+
+            font-family: arial, sans-serif;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="res-circle">
+        <div class="circle-txt">Foo Bar!</div>
+    </div>
+</body>
+
+</html>

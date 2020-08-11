@@ -1,0 +1,133 @@
+.parentContent {
+    height : 85px;
+    width : 1100px;
+    background-color: #fbfcfc;
+    margin-top: 10px;
+    position: relative;
+    border: 1px solid #b2adad;
+}
+
+.edit{
+    position: absolute;
+    left:-20px;
+}
+
+.firstContent{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+.firstContent > p {
+    margin: 0;
+}
+
+.secoundContent{
+    position: absolute;
+    left: 500px;
+}
+
+.thirdContent{
+    position: absolute;
+    left: 900px;
+}
+
+.fa-pencil-square-o ,.fa-briefcase, .fa-file, .fa-ticket{
+    color : 	 	#696969;
+}
+
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: #8e44ad;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: small;
+  }
+
+i{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.fourthContent{
+    position: absolute;
+}
+body{
+    background-color:rgb(211,211,211);
+}
+
+
+.pTitle{
+    white-space: nowrap; 
+    width: 450px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    /* border: 1px solid #000000; */
+    color:#797d7f;
+  }
+
+  .p1{
+      font-size: small;
+  }
+
+  .phead{
+      color: #8e44ad;
+      /* margin: 20px; */
+  }
+
+  .italic{
+    font-style: italic;
+    color: #8e44ad;
+  }
+
+  .volume {
+      margin-top: 30px;
+      margin-left: 25px;
+      float : left;
+  }
+
+  .issue {
+    margin-top: 30px;
+      float : left;
+  }
+
+  .statusButton{
+      position: absolute;
+      top: 50px;
+      left : 0;
+      width:160px;
+      background-color :#8e44ad;
+      color: white;
+      text-align: center;
+      border-radius: 2px;
+  }
+
+  /* circle */
+/* 
+  .res-circle {
+    width: 20%;
+    border-radius: 50%;
+    line-height: 0;
+    background: #bcd6ff;
+
+    position: relative;
+}
+
+.res-circle:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.circle-txt {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    font-family: arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+} */
